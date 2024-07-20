@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(250, 228, 205);
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.topnav{
+
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+    font-family:cursive;
+    font-size: 5vh;
+    color:rgb(74, 34, 22);
+    text-align: left;
+}
+
+
+#nav  {
+   
+    float: right;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(117, 57, 39);
+    font-family: monospace;
+    font-size: 3vh;
+}
+.img {
+    min-height: 112vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(95, 100, 117, 0.7),rgba(83, 89, 113, 0.7)), url(tyimg/coverr.jpeg);
+    background-position: center;
+   
+    background-size: cover;
+    position: relative;
+    color:white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#cover {
+
+    width: 100%;
+    padding-top: 13%;
+    text-align: center;
+    margin:0%;
+
+}
+
+button{
+    font-family: Courier;
+    background-color: #a1cbf1;
+    min-height: 10vh;
+    min-width: 20vh;
+    font-size: 105%;
+    position: relative;
+    border-style:dotted;
+    transition: all 0.3s ease;
+    color: rgb(74, 34, 22);
+    border-color: rgb(74, 34, 22);
+    
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+#contact {
+   min-height: 20vh;
+   color: rgb(117, 57, 39);
+   margin-left: 8vh;
+   font-family: monospace;
+   font-size: 3vh;
+   display: inline-block;
+   margin-top: 2vh;
+   
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 100%;
+}
+
+#ig {
+    height: 2vh;
+    margin-right: 1vh;
+}
+
+#igtext{
+    display: inline-block;
+    padding-right: 4vh;
+    
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+
+}
+
+#plushies {
+   background-size: cover;
+   background-position: center;
+   height: 35vh;
+   width: 30vh;
+   position: relative;
+   margin: 3vh;
+   border-style: solid;
+   border-color: rgb(229, 207, 183);
+   color: rgb(74, 34, 22);
+   border-bottom-width: 5vh;
+  
+}
+
+.name {
+    font-family: 'Courier New';
+    margin-top: 36vh;
+    font-size: 3vh;
+}
+
+h3{
+    
+    margin: 0vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New';
+    font-size: 3vh;
+    text-decoration:dashed;
+    font-weight: 100;
+    background-image: url(tyimg/woodd.jpg);
+    background-size: cover;
+    
+}
+.fee {
+    background-color: rgb(244, 237, 237) ;
+    
+    
+}
+
+#contactProduct{
+    min-height: 20vh;
+    color: rgb(117, 57, 39);
+    width: 97%;
+    font-family: monospace;
+    font-size: 2vh;
+    background-color: white;
+    min-width: 65vh;
+    padding-left: 3%;
+    padding-top:3vh; 
+    margin-top: 13vh;
+}
+
+
+.prodcont{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  
+}
+#warning {
+    
+    width: 22vh;
+    margin-top: -8vh;
+    padding-right: 5vh;
+    float: right;
+
+}
+
+
+
+
